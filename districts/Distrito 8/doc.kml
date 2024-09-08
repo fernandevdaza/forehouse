@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Distrito 8</name>
+    <description/>
+    <Style id="poly-1A237E-2000-77-nodesc-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d7e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-1A237E-2000-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d7e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-1A237E-2000-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-1A237E-2000-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-1A237E-2000-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Distrito 8 - Santa Cruz de la Sierra</name>
+      <Placemark>
+        <name>Distrito 8</name>
+        <styleUrl>#poly-1A237E-2000-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -63.150914,-17.820487,0
+                -63.141302,-17.82874,0
+                -63.134091,-17.836176,0
+                -63.120873,-17.852026,0
+                -63.106625,-17.865588,0
+                -63.08448,-17.877841,0
+                -63.071262,-17.863137,0
+                -63.061821,-17.847614,0
+                -63.060104,-17.83781,0
+                -63.069375,-17.833603,0
+                -63.081735,-17.829232,0
+                -63.106453,-17.82016,0
+                -63.109801,-17.817954,0
+                -63.110058,-17.813787,0
+                -63.115809,-17.81395,0
+                -63.124306,-17.813296,0
+                -63.141473,-17.809537,0
+                -63.150914,-17.820487,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
