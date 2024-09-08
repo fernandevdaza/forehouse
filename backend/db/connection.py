@@ -1,7 +1,7 @@
-from beanie import init_beanie, Document
+from beanie import init_beanie
 from motor.motor_asyncio import AsyncIOMotorClient
-from backend.storage.models.district import District
-from backend.storage.models.neighborhood import Neighborhood
+from backend.models.district import District
+from backend.models.neighborhood import Neighborhood
 
 async def init_connection(uri: str, db_name: str):
 

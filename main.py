@@ -1,6 +1,6 @@
 """Server main runtime."""
 
-from app import app
+from backend.app import app
 
 app.include_router()
 

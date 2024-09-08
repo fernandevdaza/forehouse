@@ -2,15 +2,15 @@ import geopandas as gpd
 import asyncio
 from shapely.geometry import mapping
 
-from backend.storage.db.connection import init_connection
-from backend.storage.models.district import District
+from backend.db.connection import init_connection
+from backend.models.district import District
 from config import CONFIG
 
 
 DATABASE_URI = CONFIG.mongo_uri
 DATABASE_NAME = CONFIG.mongo_name
 
-gdf = gpd.read_file('./data/distritos.geojson')
+gdf = gpd.read_file('./districts/distritos.geojson')
 
 
 async def insert_districts():

@@ -4,21 +4,21 @@ import geopandas as gpd
 
 # Ruta a los archivos KML
 districts_path = [
-    './data/Distrito 1/doc.kml',
-    './data/Distrito 2/doc.kml',
-    './data/Distrito 3/doc.kml',
-    './data/Distrito 4/doc.kml',
-    './data/Distrito 5/doc.kml',
-    './data/Distrito 6/doc.kml',
-    './data/Distrito 7/doc.kml',
-    './data/Distrito 8/doc.kml',
-    './data/Distrito 9/doc.kml',
-    './data/Distrito 10/doc.kml',
-    './data/Distrito 11/doc.kml',
-    './data/Distrito 12/doc.kml',
-    './data/Distrito 13/doc.kml',
-    './data/Distrito 14/doc.kml',
-    './data/Distrito 15/doc.kml'
+    './districts/Distrito 1/doc.kml',
+    './districts/Distrito 2/doc.kml',
+    './districts/Distrito 3/doc.kml',
+    './districts/Distrito 4/doc.kml',
+    './districts/Distrito 5/doc.kml',
+    './districts/Distrito 6/doc.kml',
+    './districts/Distrito 7/doc.kml',
+    './districts/Distrito 8/doc.kml',
+    './districts/Distrito 9/doc.kml',
+    './districts/Distrito 10/doc.kml',
+    './districts/Distrito 11/doc.kml',
+    './districts/Distrito 12/doc.kml',
+    './districts/Distrito 13/doc.kml',
+    './districts/Distrito 14/doc.kml',
+    './districts/Distrito 15/doc.kml'
 ]
 
 # Lista para almacenar todos los GeoDataFrames
@@ -68,4 +68,4 @@ if gdfs:
     print(all_districts_gdf)
 
     # Guardar el GeoDataFrame en un archivo GeoJSON con CRS definido
-    all_districts_gdf.to_file('./data/distritos.geojson', driver='GeoJSON')
+    all_districts_gdf.to_file('./districts/distritos.geojson', driver='GeoJSON')

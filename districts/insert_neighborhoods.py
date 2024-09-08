@@ -3,9 +3,9 @@ from shapely.geometry import Point
 import geopandas as gpd
 import asyncio
 from shapely.geometry import mapping
-from backend.storage.db.connection import init_connection  # Tu módulo de conexión
-from backend.storage.models.district import District       # Modelo del distrito
-from backend.storage.models.neighborhood import Neighborhood  # Modelo del barrio
+from backend.db.connection import init_connection  # Tu módulo de conexión
+from backend.models.district import District       # Modelo del distrito
+from backend.models.neighborhood import Neighborhood  # Modelo del barrio
 from config import CONFIG
 
 DATABASE_URI = CONFIG.mongo_uri
@@ -17,7 +17,7 @@ async def insert_neighborhoods():
     await init_connection(DATABASE_URI, DATABASE_NAME)
 
     # Ruta al archivo KML con los puntos
-    kml_file = './data/Barrios de Santa Cruz de la Sierra/doc.kml'
+    kml_file = 'Barrios de Santa Cruz de la Sierra/doc.kml'
 
     # Cargar el archivo KML con los puntos
     with open(kml_file, 'r') as f:
@@ -43,7 +43,7 @@ async def insert_neighborhoods():
     puntos_gdf = gpd.GeoDataFrame({'nombre': nombres_puntos, 'geometry': puntos}, crs="EPSG:4326")
 
     # Cargar el archivo distritos.geojson
-    all_districts_gdf = gpd.read_file('./data/distritos.geojson')
+    all_districts_gdf = gpd.read_file('./districts/distritos.geojson')
 
     # Asegurarse de que ambos GeoDataFrames tienen el mismo sistema de coordenadas
     if puntos_gdf.crs != all_districts_gdf.crs:

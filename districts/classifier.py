@@ -4,7 +4,7 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 
 # Ruta al archivo KML con los puntos
-kml_file = './data/Barrios de Santa Cruz de la Sierra/doc.kml'
+kml_file = './districts/Barrios de Santa Cruz de la Sierra/doc.kml'
 
 # Cargar el archivo KML con los puntos
 with open(kml_file, 'r') as f:
@@ -30,7 +30,7 @@ for placemark in root.findall(".//{http://www.opengis.net/kml/2.2}Placemark"):
 puntos_gdf = gpd.GeoDataFrame({'nombre': nombres_puntos, 'geometry': puntos}, crs="EPSG:4326")
 
 # Cargar el archivo distritos.geojson
-all_districts_gdf = gpd.read_file('./data/distritos.geojson')
+all_districts_gdf = gpd.read_file('./districts/distritos.geojson')
 
 # Verificar el CRS de los puntos y los distritos
 print("CRS de los puntos:", puntos_gdf.crs)
@@ -50,7 +50,7 @@ puntos_clasificados = gpd.sjoin(puntos_gdf, all_districts_gdf, how="left", predi
 print("Clasificación de puntos:\n", puntos_clasificados[['nombre', 'distrito']])
 
 # Guardar el resultado clasificado en un archivo GeoJSON
-puntos_clasificados[['nombre', 'distrito', 'geometry']].to_file('./data/puntos_clasificados.geojson', driver='GeoJSON')
+puntos_clasificados[['nombre', 'distrito', 'geometry']].to_file('./districts/puntos_clasificados.geojson', driver='GeoJSON')
 
 # Graficar los distritos y los puntos con un tamaño visible
 base = all_districts_gdf.plot(color='white', edgecolor='black')
