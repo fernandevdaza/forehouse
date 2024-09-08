@@ -14,6 +14,9 @@ apscheduler = "*"
 python-decouple = "*"
 starlette = "*"
 scrapy = "*"
+pykml = "*"
+geopandas = "*"
+matplotlib = "*"
 
 [dev-packages]
 

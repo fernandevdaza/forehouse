@@ -1,12 +1,9 @@
 """Server app config."""
 
 from contextlib import asynccontextmanager
-from fastapi import FastAPI, HTTPException, Depends
-from pydantic import BaseModel, Field
-from beanie import Document, init_beanie, PydanticObjectId
-from motor.motor_asyncio import AsyncIOMotorClient
+from fastapi import FastAPI, HTTPException
 from config import CONFIG
-from storage.db.connection import init_connection
+from backend.db import init_connection
 import logging
 from starlette.middleware.cors import CORSMiddleware
 
