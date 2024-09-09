@@ -3,7 +3,7 @@
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException
 from config import CONFIG
-from backend.db import init_connection
+from backend.db.connection import init_connection
 import logging
 from starlette.middleware.cors import CORSMiddleware
 

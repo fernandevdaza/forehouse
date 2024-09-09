@@ -1,6 +1,6 @@
 """Server main runtime."""
 
 from backend.app import app
-
-app.include_router()
+from backend.routes.scraped_house import router as scraped_house_router
+app.include_router(scraped_house_router)
 
