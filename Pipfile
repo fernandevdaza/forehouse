@@ -17,6 +17,9 @@ scrapy = "*"
 pykml = "*"
 geopandas = "*"
 matplotlib = "*"
+selenium = "*"
+webdriver-manager = "*"
+xgboost = "*"
 
 [dev-packages]
 
