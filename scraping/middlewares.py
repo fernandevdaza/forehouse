@@ -101,3 +101,34 @@ class ScrapingDownloaderMiddleware:
 
     def spider_opened(self, spider):
         spider.logger.info("Spider opened: %s" % spider.name)
+
+
+from scrapy.http import HtmlResponse
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+class SeleniumMiddleware(object):
+    def __init__(self):
+        chrome_options = Options()
+        chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+        chrome_options.add_argument('--ignore-certificate-errors')
+        chrome_options.add_argument('--ignore-ssl-errors')
+        chrome_options.add_argument('--allow-insecure-localhost')
+        prefs = {"intl.accept_languages": "es-BO,es"}
+        chrome_options.add_experimental_option("prefs", prefs)
+        self.driver = webdriver.Chrome(options=chrome_options)
+
+    def process_request(self, request, spider):
+        self.driver.get(request.url)
+        WebDriverWait(self.driver, 30).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, 'div.gallery-item-container'))
+        )
+        body = self.driver.page_source
+        return HtmlResponse(self.driver.current_url, body=body, encoding='utf-8', request=request)
+
+    def __del__(self):
+        self.driver.quit()
+

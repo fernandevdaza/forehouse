@@ -6,11 +6,25 @@ from config import CONFIG
 from backend.db.connection import init_connection
 import logging
 from starlette.middleware.cors import CORSMiddleware
+from cryptography.utils import CryptographyDeprecationWarning
+import warnings
 
 logger = logging.getLogger(__name__)
 
 DATABASE_URI = CONFIG.mongo_uri
 DATABASE_NAME = CONFIG.mongo_name
+
+warnings.filterwarnings(
+    "ignore",
+    category=CryptographyDeprecationWarning,
+    module="pymongo.ocsp_support",
+)
+
+warnings.filterwarnings(
+    "ignore",
+    category=CryptographyDeprecationWarning,
+    module="pymongo.ocsp_cache",
+)
 
 
 @asynccontextmanager
@@ -23,6 +37,7 @@ async def lifespan(app: FastAPI):
     except:
         logger.error("Database connection error")
         raise HTTPException(status_code=500, detail="Database connection error")
+
 
 app = FastAPI(
     title="Forehouse Backend",
