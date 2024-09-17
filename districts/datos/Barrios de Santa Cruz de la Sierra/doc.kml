@@ -1,0 +1,1126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Barrios de Santa Cruz de la Sierra</name>
+    <Style id="icon-seq2-0-0-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-1-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-10-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-11.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-11-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-12.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-12-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-13.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-13-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-14.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-14-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-15.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-15-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-16.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-16-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-17.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-17-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-18.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-18-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-19.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-19-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-20.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-2-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-20-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-21.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-21-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-22.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-22-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-23.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-23-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-24.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-24-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-25.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-25-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-26.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-26-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-27.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-27-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-28.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-28-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-29.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-29-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-30.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-3-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-30-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-31.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-31-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-32.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-32-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-33.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-33-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-34.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-34-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-35.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-35-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-36.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-36-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-37.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-37-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-38.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-38-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-39.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-39-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-40.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-4-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-40-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-41.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-41-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-42.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-42-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-43.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-43-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-44.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-44-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-45.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-45-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-46.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-46-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-47.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-47-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-48.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-48-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-49.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-49-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-50.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-5-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-50-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-51.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-51-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-52.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-52-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-53.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-53-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-54.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-54-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-55.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-55-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-56.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-6-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-7-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-8-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-9-4E342E-labelson-nodesc">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Placemark>
+      <name>BARRIO URBARI</name>
+      <styleUrl>#icon-seq2-0-0-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.197616,-17.795868,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BARRIO HILANDERIA</name>
+      <styleUrl>#icon-seq2-0-1-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.219418,-17.806223,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BARRIO 6 DE JUNIO</name>
+      <styleUrl>#icon-seq2-0-2-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.230643,-17.813555,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BARRIO EQUIPETROL</name>
+      <styleUrl>#icon-seq2-0-3-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.193579,-17.768248,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio LAB</name>
+      <styleUrl>#icon-seq2-0-4-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.125143,-17.81823,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio 27 de mayo</name>
+      <styleUrl>#icon-seq2-0-5-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.217025,-17.828486,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio San Francisco</name>
+      <styleUrl>#icon-seq2-0-6-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.132236,-17.818161,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio El Condado</name>
+      <styleUrl>#icon-seq2-0-7-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.113105,-17.78067,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Aeronautico</name>
+      <styleUrl>#icon-seq2-0-8-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.178912,-17.809106,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Polanco</name>
+      <styleUrl>#icon-seq2-0-9-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.157526,-17.804373,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Los Penocos</name>
+      <styleUrl>#icon-seq2-0-10-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.152772,-17.796078,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio el periodista</name>
+      <styleUrl>#icon-seq2-0-11-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.221446,-17.820619,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Panamericano</name>
+      <styleUrl>#icon-seq2-0-12-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.189959,-17.777413,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio 5 de Noviembre</name>
+      <styleUrl>#icon-seq2-0-13-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.130426,-17.809099,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[BARRIO "SAN JAVIER"]]></name>
+      <styleUrl>#icon-seq2-0-14-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.13337,-17.768622,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Los Batos</name>
+      <styleUrl>#icon-seq2-0-15-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.24455,-17.768799,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Guaracal</name>
+      <styleUrl>#icon-seq2-0-16-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.169271,-17.81636,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Chino</name>
+      <styleUrl>#icon-seq2-0-17-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.156246,-17.772563,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Transportista</name>
+      <styleUrl>#icon-seq2-0-18-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.1766,-17.83966,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio California</name>
+      <styleUrl>#icon-seq2-0-19-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.215736,-17.822685,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Guadalupe</name>
+      <styleUrl>#icon-seq2-0-20-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.184748,-17.848723,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Los Cumpas</name>
+      <styleUrl>#icon-seq2-0-21-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.207746,-17.839341,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Los Vallecitos</name>
+      <styleUrl>#icon-seq2-0-22-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.222846,-17.847222,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Casa Nova II</name>
+      <styleUrl>#icon-seq2-0-23-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.168603,-17.841586,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Flamingo</name>
+      <styleUrl>#icon-seq2-0-24-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.21279,-17.822252,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Militar Nuevo Amanecer</name>
+      <styleUrl>#icon-seq2-0-25-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.172491,-17.845642,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Guaracachi</name>
+      <styleUrl>#icon-seq2-0-26-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.138579,-17.77744,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BARRIO VICTORIA</name>
+      <styleUrl>#icon-seq2-0-27-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.18059,-17.821487,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Casa Bella</name>
+      <styleUrl>#icon-seq2-0-28-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.216188,-17.865538,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio el Manchon</name>
+      <styleUrl>#icon-seq2-0-29-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.19886,-17.756258,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Fé y Alegría</name>
+      <styleUrl>#icon-seq2-0-30-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.191962,-17.789733,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Saguapac sur</name>
+      <styleUrl>#icon-seq2-0-31-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.188008,-17.838182,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Santa Isabel.</name>
+      <styleUrl>#icon-seq2-0-32-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.171162,-17.727979,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Soberanía Nacional</name>
+      <styleUrl>#icon-seq2-0-33-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.156085,-17.814582,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Santa Rosa</name>
+      <styleUrl>#icon-seq2-0-34-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.202041,-17.791279,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BARRIO PRIMAVERA</name>
+      <styleUrl>#icon-seq2-0-35-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.162784,-17.822657,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio las Pampita</name>
+      <styleUrl>#icon-seq2-0-36-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.120752,-17.768425,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BARRIO LOS CHIFLADOS</name>
+      <styleUrl>#icon-seq2-0-37-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.232226,-17.839432,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Lindo</name>
+      <styleUrl>#icon-seq2-0-38-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.167472,-17.78569,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Madre India</name>
+      <styleUrl>#icon-seq2-0-39-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.236665,-17.83707,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio El Trigal</name>
+      <styleUrl>#icon-seq2-0-40-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.21524,-17.858363,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Palma Real</name>
+      <styleUrl>#icon-seq2-0-41-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.17331,-17.850123,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio La Purisima</name>
+      <styleUrl>#icon-seq2-0-42-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.102413,-17.74973,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio las americas</name>
+      <styleUrl>#icon-seq2-0-43-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.191929,-17.862585,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Los Totaises Sur</name>
+      <styleUrl>#icon-seq2-0-44-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.219785,-17.862663,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Covipal</name>
+      <styleUrl>#icon-seq2-0-45-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.237641,-17.845946,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio San Carlos</name>
+      <styleUrl>#icon-seq2-0-46-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.205226,-17.867424,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio San Jorge</name>
+      <styleUrl>#icon-seq2-0-47-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.079153,-17.751928,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Irma Suarez</name>
+      <styleUrl>#icon-seq2-0-48-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.216747,-17.795542,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio 25 De Junio</name>
+      <styleUrl>#icon-seq2-0-49-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.156361,-17.858923,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio San Antonio</name>
+      <styleUrl>#icon-seq2-0-50-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.233287,-17.869806,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio los Olivos</name>
+      <styleUrl>#icon-seq2-0-51-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.228614,-17.825588,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BARRIO SANTISTEVAN </name>
+      <styleUrl>#icon-seq2-0-52-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.238389,-17.851539,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Ñuflo de Chavez</name>
+      <styleUrl>#icon-seq2-0-53-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.141098,-17.861382,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Florida</name>
+      <styleUrl>#icon-seq2-0-54-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.169579,-17.868387,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barrio Roca y Coronado</name>
+      <styleUrl>#icon-seq2-0-55-4E342E-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -63.15794,-17.83518,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
