@@ -44,7 +44,7 @@ def abrir_hasta_luego(root, data, data_predictions):
     button_image1 = load_and_resize_image(button_image_path, (250, 70))
     if button_image1:
         def on_button5_click():
-            from main import abrir_main  
+            from main_menu import abrir_main
             window.destroy()
             abrir_main(root, data, data_predictions)
 

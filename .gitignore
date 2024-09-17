@@ -6,6 +6,9 @@ __pycache__/
 *.so
 .idea/
 houses/
+houses/houses.jsonl
+houses/remax.jsonl
+houses/ultracasas.jsonl
 # Distribution / packaging
 .Python
 develop-eggs/

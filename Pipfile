@@ -20,6 +20,9 @@ matplotlib = "*"
 selenium = "*"
 webdriver-manager = "*"
 xgboost = "*"
+aiohttp = "*"
+pandas = "*"
+pillow = "*"
 
 [dev-packages]
 

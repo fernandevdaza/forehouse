@@ -65,7 +65,6 @@ def guardar_informacion(terreno_var, construccion_var, banos_var, habitaciones_v
         "neighborhood_id": selected_neighborhood_id,
         "district_id": selected_district_id
     }
-    print("Información guardada:", informacion)
     headers = {
         'Content-Type': 'application/json',
         'Accept': 'application/json'
@@ -76,11 +75,10 @@ def guardar_informacion(terreno_var, construccion_var, banos_var, habitaciones_v
     data = res.read()
 
     if res.status == 200:
-        print("Server response:", data)
         response_json = json.loads(data.decode('utf-8'))
         predicted_price = response_json.get('prices', {}).get('final_predicted_price', None)
         if predicted_price is not None:
-            precio_label.config(text=f"Precio Predicho: ${predicted_price:,.2f}",
+            precio_label.config(text=f"Precio Estimado: ${predicted_price:,.2f}",
                                 font=("Roboto", 16, "bold"),
                                 fg="#FFFFFF",
                                 bg="#5c9179"
@@ -229,7 +227,7 @@ def abrir_prediccion_primera_ventana(root, data, data_predictions):
 
         def on_next_button_click():
             window.destroy()
-            from ventanafinal import abrir_hasta_luego  
+            from end_page import abrir_hasta_luego
             abrir_hasta_luego(root, data, data_predictions)
 
         button_1 = Button(

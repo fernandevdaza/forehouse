@@ -52,7 +52,7 @@ def abrir_bienvenido(root, data, data_predictions):
     if button_image:
         def on_button_click():
             window.destroy()
-            from main import abrir_main  
+            from main_menu import abrir_main
             abrir_main(root, data, data_predictions)  
 
         button_1 = Button(
