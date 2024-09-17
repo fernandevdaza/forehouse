@@ -2,8 +2,8 @@ from pathlib import Path
 from tkinter import Tk, Canvas, PhotoImage, Button
 from PIL import Image, ImageTk
 from utils.get_data import get_data, get_data_prediction
-from prediccion_primera_ventana import abrir_prediccion_primera_ventana
-from info_primera_ventana import abrir_info
+from option_1 import abrir_prediccion_primera_ventana
+from option_2 import abrir_info
 from tkinter import Toplevel
 import asyncio
 

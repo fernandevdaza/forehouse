@@ -1,9 +1,9 @@
 from pathlib import Path
 from tkinter import Toplevel, Canvas, PhotoImage, Button
 from PIL import Image, ImageTk
-from graficos.a import create_graph
-from graficos.b import create_comparative_graph, df1
-from graficos.c import create_ranking_graph
+from graficos.plot_1 import create_graph
+from graficos.plot_2 import create_comparative_graph, df1
+from graficos.plot_3 import create_ranking_graph
 
 OUTPUT_PATH = Path(__file__).parent
 ASSETS_PATH = OUTPUT_PATH / Path("assets")
@@ -103,7 +103,7 @@ def abrir_info(root, data, data_predictions):
 
         def on_next_button_click():
             window.destroy()
-            from ventanafinal import abrir_hasta_luego  
+            from end_page import abrir_hasta_luego
             abrir_hasta_luego(root, data, data_predictions)
 
         button_1 = Button(

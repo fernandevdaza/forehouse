@@ -69,7 +69,7 @@ def clean_and_flatten_houses(jsonl):
 
 
 # Leer archivo y pasar a la función
-with open('cleaning/houses.jsonl', 'r', encoding='utf-8') as f:
+with open('data_cleaning/houses.jsonl', 'r', encoding='utf-8') as f:
     # Leer el archivo línea por línea y enumerarlas
     jsonl = list(enumerate(f))
     # Llamar a la función para limpiar y desanidar los datos

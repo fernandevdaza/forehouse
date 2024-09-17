@@ -20,7 +20,7 @@ def convertir_jsonl_a_json(archivo_jsonl, archivo_json):
 
 
 # Uso del script
-archivo_jsonl = 'cleaning/remax.jsonl'  # Nombre del archivo JSONL
+archivo_jsonl = 'data_cleaning/remax.jsonl'  # Nombre del archivo JSONL
 archivo_json = 'remax-final.json'  # Nombre del archivo de salida JSON
 
 convertir_jsonl_a_json(archivo_jsonl, archivo_json)

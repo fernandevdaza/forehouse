@@ -10,7 +10,7 @@ services:
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: password
     volumes:
-      - mongodb_data:/districts/db
+      - mongodb_data:/districts/mongodb_docker_compose
 
 volumes:
   mongodb_data:
