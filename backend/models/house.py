@@ -11,8 +11,8 @@ class HouseInput(BaseModel):
     garages: int = 0
     built_area: float = 0.0
     terrain_area: float = 0.0
-    lat: float = 0.0
-    lng: float = 0.0
+    lat: Optional[float] = None
+    lng: Optional[float] = None
     neighborhood_id: Optional[PydanticObjectId] = None
     district_id: Optional[PydanticObjectId] = None
 
@@ -36,7 +36,8 @@ class HouseOutput(BaseModel):
     neighborhood_id: Optional[PydanticObjectId] = None
     district_id: Optional[PydanticObjectId] = None
     prices: Prices  # Campo 'prices' que incluye el objeto Prices
-
+    neighborhood_name: Optional[str] = None
+    price_per_m2: Optional[float] = None
 
 
 

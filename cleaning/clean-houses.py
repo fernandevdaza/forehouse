@@ -47,30 +47,6 @@ def convert_fields_to_float(house, i):
             with open('errors.txt', 'a', encoding='utf-8') as f:
                 f.write(f"Error en la línea {i}: location_lng\n")
 
-    # # Convertir el campo 'extras_Construido' a float si existe
-    # if 'extras_Construido' in house:
-    #     try:
-    #         house['extras_Construido'] = float(house['extras_Construido'].replace(',', '').split(' ')[0])
-    #     except (ValueError, KeyError, AttributeError):
-    #         with open('errors.txt', 'a', encoding='utf-8') as f:
-    #             f.write(f"Error en la línea {i}: extras_Construido\n")
-
-    # # Convertir el campo 'extras_Terreno' a float si existe
-    # if 'extras_Terreno' in house:
-    #     try:
-    #         house['extras_Terreno'] = float(house['extras_Terreno'].replace(',', '').split(' ')[0])
-    #     except (ValueError, KeyError, AttributeError):
-    #         with open('errors.txt', 'a', encoding='utf-8') as f:
-    #             f.write(f"Error en la línea {i}: extras_Terreno\n")
-    #
-    # # Convertir el campo 'extras_Año construcción' a int si existe
-    # if 'extras_Año construcción' in house:
-    #     try:
-    #         house['extras_Año construcción'] = int(house['extras_Año construcción'])
-    #     except (ValueError, KeyError):
-    #         with open('errors.txt', 'a', encoding='utf-8') as f:
-    #             f.write(f"Error en la línea {i}: extras_Año construcción\n")
-
 # Función para limpiar y desanidar los datos de las casas
 def clean_and_flatten_houses(jsonl):
     for i, line in jsonl:

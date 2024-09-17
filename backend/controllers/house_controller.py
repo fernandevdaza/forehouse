@@ -96,11 +96,16 @@ class HouseController:
                     house.terrain_area >= 0):
                 raise ValueError("Las características numéricas no pueden ser negativas.")
 
-            if not (-90 <= house.lat <= 90):
-                raise ValueError("La latitud debe estar entre -90 y 90 grados.")
+            neighborhood = await NeighborhoodController.get_neighborhood_by_id(house.neighborhood_id)
 
-            if not (-180 <= house.lng <= 180):
-                raise ValueError("La longitud debe estar entre -180 y 180 grados.")
+            house.lat = neighborhood.geometry.coordinates[1]
+            house.lng = neighborhood.geometry.coordinates[0]
+
+            # if not (-90 <= house.lat <= 90):
+            #     raise ValueError("La latitud debe estar entre -90 y 90 grados.")
+            #
+            # if not (-180 <= house.lng <= 180):
+            #     raise ValueError("La longitud debe estar entre -180 y 180 grados.")
 
             if house.neighborhood_id is None or house.district_id is None:
                 raise ValueError("Los IDs de vecindario y distrito no pueden ser nulos.")
@@ -143,12 +148,15 @@ class HouseController:
         }
         return features_price, features_no_price
 
-    async def get_all_predictions(self) -> List[HouseOutput]:
+    @classmethod
+    async def get_all_predictions(cls) -> List[HouseOutput]:
         """Get all the predictions."""
         try:
             houses = await House.all().to_list()
+            #Añadir Nombre de barrio y precio por m2
             predictions = []
             for house in houses:
+                neighborhood = await NeighborhoodController.get_neighborhood_by_id(house.neighborhood_id)
                 predictions.append(HouseOutput(
                     _id=house.id,
                     bedrooms=house.bedrooms,
@@ -160,7 +168,9 @@ class HouseController:
                     lng=house.lng,
                     neighborhood_id=house.neighborhood_id,
                     district_id=house.district_id,
-                    prices=house.prices
+                    prices=house.prices,
+                    neighborhood_name=neighborhood.nombre,
+                    price_per_m2=neighborhood.price_per_m2
                 ))
 
             return predictions

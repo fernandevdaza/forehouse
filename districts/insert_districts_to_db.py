@@ -10,7 +10,7 @@ from config import CONFIG
 DATABASE_URI = CONFIG.mongo_uri
 DATABASE_NAME = CONFIG.mongo_name
 
-gdf = gpd.read_file('./districts/distritos.geojson')
+gdf = gpd.read_file('./districts/datos/distritos.geojson')
 
 
 async def insert_districts():

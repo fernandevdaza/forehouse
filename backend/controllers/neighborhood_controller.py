@@ -43,3 +43,10 @@ class NeighborhoodController:
             raise
         except Exception as e:
             raise RuntimeError(f"Ocurrió un error al guardar el vecindario: {e}") from e
+
+    @classmethod
+    async def get_neighborhood_by_id(cls, neighborhood_id: PydanticObjectId) -> NeighborhoodOutput:
+        neighborhood = await Neighborhood.get(neighborhood_id)
+        if neighborhood is None:
+            raise HTTPException(status_code=404, detail=f"Neighborhood with id {neighborhood_id} not found.")
+        return NeighborhoodOutput(**neighborhood.model_dump())

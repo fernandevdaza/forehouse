@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Distrito 1</name>
+    <description/>
+    <Style id="poly-0288D1-1200-76-nodesc-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4cd18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-0288D1-1200-76-nodesc-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4cd18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-1200-76-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-1200-76-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-1200-76-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Distrito 1 Santa Cruz de la Sierra</name>
+      <Placemark>
+        <name>Distrito Municipal 1</name>
+        <styleUrl>#poly-0288D1-1200-76-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -63.1825269,-17.7705595,0
+                -63.1821835,-17.7671266,0
+                -63.1730855,-17.7444023,0
+                -63.1763256,-17.7437074,0
+                -63.1772268,-17.7437483,0
+                -63.1792505,-17.7439259,0
+                -63.1794718,-17.7433064,0
+                -63.1805192,-17.7436168,0
+                -63.1808069,-17.7432202,0
+                -63.1815666,-17.7433141,0
+                -63.1851125,-17.7433294,0
+                -63.1889427,-17.7435644,0
+                -63.1923116,-17.7330391,0
+                -63.2031262,-17.7623041,0
+                -63.2163441,-17.7773435,0
+                -63.226558,-17.8019432,0
+                -63.215915,-17.797285,0
+                -63.205272,-17.7948333,0
+                -63.2033837,-17.7937709,0
+                -63.1941998,-17.790175,0
+                -63.1950581,-17.7843723,0
+                -63.1922257,-17.7744828,0
+                -63.1909383,-17.7728481,0
+                -63.1848443,-17.770723,0
+                -63.1825269,-17.7705595,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Capa sin nombre</name>
+    </Folder>
+  </Document>
+</kml>
